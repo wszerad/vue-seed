@@ -1,0 +1,29 @@
+@mixin full-x {
+  width: 100%;
+}
+
+@mixin  full-y {
+  height: 100%;
+}
+
+@mixin flex-box($direction: row, $justify: center, $wrap: nowrap) {
+  display: flex;
+  justify-content: $justify;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+@mixin flex($grow: 1, $shrink: 1, $basis: auto) {
+  flex-grow: $grow;
+  flex-shrink: $shrink;
+  flex-basis: $basis;
+}
+
+@mixin user-select($select: none) {
+  -webkit-touch-callout: $select;
+  -webkit-user-select: $select;
+  -khtml-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+  user-select: $select;
+}

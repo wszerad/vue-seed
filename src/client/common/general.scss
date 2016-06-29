@@ -1,0 +1,71 @@
+@import "icons/icons";
+@import "roboto/roboto";
+
+/* clear */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.input-form {
+	padding: 15px;
+}
+
+.form-label {
+	height: 40px;
+	vertical-align: bottom;
+	line-height: 35px;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.row {
+	height: 60px;
+
+	button {
+		margin: 7px 0 15px;
+	}
+}
+
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+button {
+	border: 0;
+	background-color: #2C8CC8;
+	color: white;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	height: 38px;
+	outline-style: none;
+
+	i {
+		margin-right: 6px;
+
+		&:before {
+			font-size: 18px;
+			line-height: 17px;
+			vertical-align: bottom;
+		}
+	}
+}
+
+button:hover {
+	background-color: #6fa0c8;
+}
